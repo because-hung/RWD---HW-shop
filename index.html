@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web\css/all.css">
 
+  
+    
+   
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://use.fontawesome.com/abccd1a1da.js"></script>
+  
     
 </head>
 
@@ -35,6 +41,7 @@
 
 
         <div class="uldiv">
+            <a href="" class="menubtn">menu</a>
             <ul class="topmenu">
                 <li><a href="">特色</a> </li>
                 <li><a href="">主廚</a></li>
@@ -53,10 +60,10 @@
             <div class="lmdiv">
                 <h3>線上訂購美食</h3>
                 <ul>
-                    <li><a href="">全部(23)</a></li>
-                    <li><a href="">薯條(18)</a></li>
-                    <li><a href="">漢堡(22)</a></li>
-                    <li><a href="">經典搭配(4)</a></li>
+                    <li><a href="">全部<em>(23)</em></a></li>
+                    <li><a href="">薯條<em>(10)</em></a></li>
+                    <li><a href="">漢堡<em>(9)</em></a></li>
+                    <li><a href="">經典搭配<em>(4)</em></a></li>
                 </ul>
             </div>
 
@@ -154,19 +161,21 @@
 </div>
 
     <!--top-->
+<script>
+    $(document).ready(function () {
+    $('.menubtn').on('click',  function(e){
+        e.preventDefault();
+        $('.topmenu').toggleClass('showmenu');
+       
+        
+});
+
+});
+</script>
 
 
-
-
-
-
-    <script src="https://use.fontawesome.com/abccd1a1da.js"></script>
-    <script src="js/all.js"></script>
 </body>
 
 </html>
 
-<script src="all.js"></script>
-</body>
 
-</html>
