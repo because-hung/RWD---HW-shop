@@ -115,14 +115,14 @@ h1 a{
    
 }
 
-.uldiv{
+.headerMenu{
     position: relative;
  
 }
 
 
 
-.menubtn{
+.hamMenu{
    
 text-decoration: none;
 display: none;
@@ -175,7 +175,7 @@ h1 a{
  margin-left: 10px; 
 }
 
-.menubtn{
+.hamMenu{
     display: block;
 }
  
@@ -208,7 +208,7 @@ opacity: 0;
 }
 
 
-.pdiv{
+.topTitle{
     
     text-align: center;
   display: flex;
@@ -221,14 +221,14 @@ opacity: 0;
  margin-bottom: 10%; 
 }
 
-.pdiv h2{
+.topTitle h2{
 
     color: white;
     font-size: 30px;
     font-weight: 700;
     color: hsl(100%, 100%, 100%);
 }
-.pdiv p{
+.topTitle p{
   
     color: white;
     font-size: 22px;
@@ -238,12 +238,12 @@ opacity: 0;
 
 @media (max-width:768px){
 
-.pdiv{
+.topTitle{
 
    padding: 10%;
 
 }
-    .pdiv h2{
+    .topTitle h2{
    
   
         font-size:22px;
@@ -251,7 +251,7 @@ opacity: 0;
       
     }
     
-    .pdiv p{
+    .topTitle p{
    display: none;
     }
     
@@ -260,7 +260,7 @@ opacity: 0;
 
 @media (max-width:414px){
 
-    .pdiv h2{
+    .topTitle h2{
 padding: 30%;
 
 font-size: 28px;
@@ -291,26 +291,26 @@ font-size: 28px;
 }
 
 
-.lmdiv{ 
+.sidebar{ 
     padding: 30px;
     width: 30%;
   
 }
 
-.lmdiv h3{
+.sidebar h3{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
     margin-left: 10px;
 }
 
-.lmdiv li{ 
+.sidebar li{ 
 margin-top: 10px;
 margin-bottom: 10px;
 
 }
 
-.lmdiv a{
+.sidebar a{
     display: block;
     max-width: 100px;
     text-decoration: none;
@@ -320,14 +320,14 @@ margin-bottom: 10px;
     border-bottom:3px solid coral;
 }
 
-.lmdiv a:hover{
+.sidebar a:hover{
     background-color: chocolate;
 color: white;
 }
 
 @media (max-width:768px){
 
-    .lmdiv a {
+    .sidebar a {
         text-align: center;
     }
     em{
@@ -339,20 +339,20 @@ color: white;
 @media (max-width:414px){
   
    
-.lmdiv{ 
+.sidebar{ 
   width: 100%;
 
 
 }
 
-.lmdiv h3{ 
+.sidebar h3{ 
 text-align: center;
 font-size: 28px;
   }
 
   
 
-    .lmdiv a{
+    .sidebar a{
         text-align: center; 
        max-width: 90%;
         background-color: chocolate;
@@ -366,17 +366,17 @@ font-size: 28px;
 
 
     
-    .lmdiv a:hover{
+    .sidebar a:hover{
     font-size: 20px;
     background-color: burlywood;
     }
     }
 
-.rmdiv{
+.product{
   
     padding: 30px;
 }
-.topmid{
+.searchGroup{
     display: flex;
 
   justify-content: space-between;
@@ -399,13 +399,13 @@ border-left: none;
 }
 
 
-.middlemenu{
+.cart{
     display: flex;
 
    
 }
 
-.middlemenu a{
+.cart a{
     display: block;
     max-width: 50px;
     color: gray;
@@ -415,7 +415,7 @@ padding-top: 5px;
    
 }
 
-.middlemenu a:hover{
+.cart a:hover{
     background-color: grey;
     color: wheat;
 }
@@ -428,14 +428,14 @@ border-left: 2px firebrick solid ;
 
 
 
-.menu{
+.productList{
     display: flex;
   
    flex-wrap: wrap;
     text-align: center;
 }
 
-.menu .order{
+.productList .order{
    width: 30%;
     margin: 1%;
   border-right: 2px gray solid;
@@ -444,17 +444,17 @@ border-left: 2px firebrick solid ;
 
 
 
-.menu h2{
+.productList h2{
     margin: 10px;
     font-size: 20px;
     font-weight: 700;
     
 }
-.menu p{
+.productList p{
     margin-bottom: 30px;
 }
 
-.menu span{
+.productList span{
     display: block;
     font-size: 20px;
     font-weight: 700;
@@ -463,7 +463,7 @@ border-left: 2px firebrick solid ;
 }
 
 
-.menu button{
+.productList button{
    width: 90%;
    margin: 10px;
    color: orangered;
@@ -474,7 +474,7 @@ border-left: 2px firebrick solid ;
 @media (max-width:768px) {
 
     
-.menu .order{
+.productList .order{
     width: 45%;
   
  }
@@ -488,12 +488,12 @@ border-left: 2px firebrick solid ;
 @media (max-width:414px) {
 
     
-    .topmid{
+    .searchGroup{
 
         margin-bottom: 15px;
     }
     
-    .menu .order{
+    .productList .order{
         width: 98%;
       margin: 10px;
      }
@@ -509,36 +509,36 @@ border-left: 2px firebrick solid ;
     justify-content: space-between;
     padding-bottom: 20px;
 }
-.leftdiv{
+.aboutUs{
     display: flex; 
 }
-.leftdiv p{
+.aboutUs p{
     max-width: 300px;
    
 }
-.leftdiv h3{
+.aboutUs h3{
 
 margin-left: 30px;
 font-weight: 600;
 font-size: 20px;
 }
 
-.leftdiv p{
+.aboutUs p{
     padding: 20px;
     margin: 10px;
 }
 
-.leftdiv ul{
+.aboutUs ul{
     margin-top: 30px;
     margin-left: 50px;
 }
 
-.leftdiv li{
+.aboutUs li{
 padding: 3px;
 list-style-type: disc;
 }
 
-.rightdiv{
+.footerLogo{
 margin-right: 30px;    
 }
 
@@ -557,7 +557,7 @@ margin-right: 30px;
 @media (max-width:768px){
 
 
-    .ldiv{
+    .about{
         display: none;
     }
 
@@ -571,16 +571,16 @@ margin-right: 30px;
       flex-direction: column-reverse;
     }
 
-     .rdiv{
+     .tel{
         text-align: center;
         margin: 0 auto;
     } 
 
-    .rdiv li{
+    .tel li{
      list-style-type: none  ;
     
     } 
-    .rightdiv{
+    .footerLogo{
 text-align: center;
 margin-left: 50px;
         }

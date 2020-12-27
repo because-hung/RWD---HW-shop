@@ -23,7 +23,7 @@
 
     <div class="header">
 
-        <div class="svgdiv">
+        <div class="svglogo">
 
             <h1>
                 <a href="#123">六角西餐廳</a>
@@ -33,15 +33,15 @@
 
         </div>
 
-        <div class="pdiv">
+        <div class="topTitle">
             <h2>咬一口就無法忘懷的漢堡</h2>
             <p>光棍節絕對不能錯過的好滋味</p>
             <p>六角大漢堡</p>
         </div>
 
 
-        <div class="uldiv">
-            <a href="" class="menubtn">menu</a>
+        <div class="headerMenu">
+            <a href="" class="hamMenu">menu</a>
             <ul class="topmenu">
                 <li><a href="">特色</a> </li>
                 <li><a href="">主廚</a></li>
@@ -57,7 +57,7 @@
         <!--middle-->
 
         <div class="middle">
-            <div class="lmdiv">
+            <div class="sidebar">
                 <h3>線上訂購美食</h3>
                 <ul>
                     <li><a href="">全部<em>(23)</em></a></li>
@@ -67,20 +67,20 @@
                 </ul>
             </div>
 
-            <div class="rmdiv">
-                <div class="topmid">
+            <div class="product">
+                <div class="searchGroup">
                     <div class="search">
                         <input type="text" class="txt"><button><i class="fas fa-search"></i></button>
                     </div>
                   
-                    <ul class="middlemenu">
+                    <ul class="cart">
                         <li><a href="">結帳去</a></li>
                         <li><a href="" class="shopcart"> <img src="img/shop.png" alt=""></a></li>
                     </ul>
     
                 </div>
              
-                <div class="menu">
+                <div class="productList">
                     <div class="order"><img src="img/product_1.png" alt="">
                         <h2>經典漢堡套餐</h2>
                         <p>meat between two slices of bread</p>
@@ -114,8 +114,8 @@
 
         <!--bottom-->
         <div class="footer">
-            <div class="leftdiv">
-                <div class="ldiv">
+            <div class="aboutUs">
+                <div class="about">
                     <h3>關於 六角餐廳</h3>
                     <p> A warning sign is a type of sign which indicates a potential hazard, obstacle, or condition
                         requiring special attention. Some are traffic signs that indicate hazards on roads that may
@@ -123,7 +123,7 @@
                         be readily apparent to a driver. A warning sign is a type of sign which indicates a
                     </p>
                 </div>
-                <div class="rdiv">
+                <div class="tel">
                     <h3>聯絡方式</h3>
                     <ul>
                         <li>高雄市前鎮區中山路23號</li>
@@ -134,9 +134,9 @@
 
             </div>
 
-            <div class="rightdiv">
+            <div class="footerLogo">
 
-                <div class="h3img">
+                <div class="logoimg">
                     <img src="img/logo_l2.svg" alt="">
                 </div>
                 <ul class="bottomlogo">
@@ -161,17 +161,7 @@
 </div>
 
     <!--top-->
-<script>
-    $(document).ready(function () {
-    $('.menubtn').on('click',  function(e){
-        e.preventDefault();
-        $('.topmenu').toggleClass('showmenu');
-       
-        
-});
-
-});
-</script>
+    <script src="js/all.js"></script>
 
 
 </body>
